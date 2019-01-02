@@ -1,6 +1,6 @@
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition((pos)=>{
-  	alert(pos.coords.latitude + ' ' + pos.coords.longitude);
+  	alert('lat: '+ pos.coords.latitude + ' long: ' + pos.coords.longitude);
   },
   (err)=>{
   	console.log('err', err);
