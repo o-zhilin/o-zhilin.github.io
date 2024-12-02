@@ -6,7 +6,7 @@
   "main": "script.js",
   "scripts": {
     "test": "node Doctor/bin/run.js && exit 1",
-    "run-server": "http-server -o /" 
+    "run-server": "http-server -o /"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "homepage": "https://github.com/o-zhilin/o-zhilin.github.io#readme",
   "dependencies": {
     "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0"
   }
 }
