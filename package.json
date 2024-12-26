@@ -2,8 +2,8 @@
   "name": "o-zhilin.github.io",
   "version": "1.0.0",
   "type": "module",
-  "description": "Frontend test framework.",
-  "main": "script.js",
+  "description": "Test framework.",
+  "main": "run.js",
   "scripts": {
     "test": "node Doctor/bin/run.js && exit 1",
     "run-server": "http-server -o /"
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/o-zhilin/o-zhilin.github.io.git"
   },
-  "author": "Sound",
+  "author": "Oleh Zhylin",
   "license": "-",
   "bugs": {
     "url": "https://github.com/o-zhilin/o-zhilin.github.io/issues"
